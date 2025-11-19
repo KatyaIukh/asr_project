@@ -40,7 +40,6 @@
 | **Эпохи** | 3 | 3 |
 | **LoRA rank (r)** | 32 | 32 |
 | **LoRA alpha** | 64 | 64 |
-| **Target modules** | q_proj, v_proj | q_proj, v_proj |
 
 ## Результаты
 
