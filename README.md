@@ -1,4 +1,3 @@
-# asr_project
 # Fine-tuning Whisper with LoRA for Upper Sorbian Speech Recognition
 
 ## О проекте
@@ -22,8 +21,8 @@
 - С использованием функции `merge_and_unload` библиотеки PeftModel веса адаптера объединяются с исходной моделью Whisper
 - Создаётся новая модель, адаптированная под понимание западнославянских языков
 - На втором этапе используется стандартное обучение LoRA адаптера на моноязычных данных верхнелужицкого языка
-
-![Архитектура подходов](architecture.png)
+  
+<img width="624" height="339" alt="image" src="https://github.com/user-attachments/assets/2df23c84-2295-4fd3-a838-82950f05ab8d" />
 
 ## Данные для обучения
 
