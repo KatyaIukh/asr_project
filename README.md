@@ -22,7 +22,8 @@
 - Создаётся новая модель, адаптированная под понимание западнославянских языков
 - На втором этапе используется стандартное обучение LoRA адаптера на моноязычных данных верхнелужицкого языка
   
-<img width="624" height="339" alt="image" src="https://github.com/user-attachments/assets/2df23c84-2295-4fd3-a838-82950f05ab8d" />
+<img width="1903" height="962" alt="Снимок экрана (3082)" src="https://github.com/user-attachments/assets/ec2a9ebf-7a9d-4e0b-90fd-90294d86ec93" />
+
 
 ## Данные для обучения
 
