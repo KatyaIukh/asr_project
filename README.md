@@ -46,11 +46,46 @@
 Оценка качества модели с добавлением LoRa адаптера на верхнелужицком языке:
 <img width="500" alt="image" src="https://github.com/user-attachments/assets/f87dc576-798f-4704-967f-54eccd06a488" />
 
+Примеры предсказаний:
+
+Пример 1:  
+  WER: 0.778  
+  Эталон: Wot statneje strony wudźěłane wustawki wotpokaza wjetšina zastupjerjow towarstwow.  
+  Предсказание: Wot statnjeje strony wudźěłanejustjostjostjostjostjostjostjostjostjostjostjostjostjostjostjostjostjostjostjostjostjostjostjostjostjostjostjostjostjostjostjostjostjostjostjostjostjostjostj  ostjostjostjostjostjostjostjostjostjostjostjostjostjostjostj
+
+Пример 2:  
+  WER: 0.500  
+  Эталон: Wój stej móhłoj wulkotnje dźiwadło hrać, ale docyła nic spěwać.  
+  Предсказание: łoj stej móhłaj wulkotnje dźiwadłorać, ale docyła nic běłać.
+
+Пример 3:  
+  WER: 0.417  
+  Эталон: Hižo jako pachoł horješe so za hudźbu a započa na gitarje hrać.  
+  Предсказание: �ižo jako pachow horeše so za hudźbu a započanah gitarje hrać.
+
+  
 Видно, что высокий средний WER обусловлен редкими выбросами, в целом модель демонстрирует возможность распознавать верхнелужицкую речь, что связано с наличием славянских языков в данных для обучения оригинального whisper, однако качество распознования невысоко
 
 Оценка качества модели, предобученной на чешском языке до обучение на верхнелужицком:
 
 <img width="500" alt="wer_distribution" src="https://github.com/user-attachments/assets/dc716038-ec2d-4e2f-931c-81c1c59e0fa2" />
+
+Примеры предсказаний:
+
+Пример 1:
+  WER: 0.600
+  Эталон: Pućowanske šćežki a rěčki wjedu w přenjesenym zmysle k hwězdam.
+  Предсказание: Pučowanske wšěžki a rěčki wjadu přenjesenym zmyle k wězdam.
+
+Пример 2:
+  WER: 0.200
+  Эталон: Wój stej móhłoj wulkotnje dźiwadło hrać, ale docyła nic spěwać.
+  Предсказание: Wój stej móhłaj wulkotnje dźiładło hrać, ale docyła nic spěwać.
+
+Пример 3:
+  WER: 0.500
+  Эталон: Hižo jako pachoł horješe so za hudźbu a započa na gitarje hrać.
+  Предсказание: hiže jako pachow horeše so za hódźbu a započana gitarje hrać.
 
 Как видно из гистограммы, качество распознования речи существенно улучшилось
 Стоит отметить, что обычно при дообучении ASR моделей используется в разы больше аудио данных, чем 10 часов аудио, сколько использовалось для предварительного обучения адаптера на чешском языке в данной работе, так что повышение качества даже при небольшом количестве данных для обучения показывает преимущества подхода к высокоресурсным "языком-посредником" при дообучении моделей распознования речи на низкоресурсные языки
