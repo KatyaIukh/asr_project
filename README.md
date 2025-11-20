@@ -48,15 +48,15 @@
 
 ## Примеры распознавания речи
 
-### 📊 Пример 1 (WER: 0.778)
+### 📝 Пример 1 (WER: 0.778)
 - **Эталон**: Wot statneje strony wudźěłane wustawki wotpokaza wjetšina zastupjerjow towarstwow.
 - **Предсказание**: Wot statnjeje strony wudźěłanejustjostjostjostjostjostjostjostjostjostjostjostjostjostjostjostjostjostjostjostjostjostjostjostjostjostjostjostjostjostjostjostjostjostjostjostjostjostjostj ostjostjostjostjostjostjostjostjostjostjostjostjostjostjostj
 
-### 📊 Пример 2 (WER: 0.500)
+### 📝 Пример 2 (WER: 0.500)
 - **Эталон**: Wój stej móhłoj wulkotnje dźiwadło hrać, ale docyła nic spěwać.
 - **Предсказание**: łoj stej móhłaj wulkotnje dźiwadłorać, ale docyła nic běłać.
 
-### 📊 Пример 3 (WER: 0.417)
+### 📝 Пример 3 (WER: 0.417)
 - **Эталон**: Hižo jako pachoł horješe so za hudźbu a započa na gitarje hrać.
 - **Предсказание**: �ižo jako pachow horeše so za hudźbu a započanah gitarje hrać.
 
